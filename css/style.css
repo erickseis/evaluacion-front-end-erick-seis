@@ -1,0 +1,147 @@
+/**General**/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+.header{
+    background-image: url(/img/header-background.jpg);
+    display: flex
+;
+    flex-direction: column;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.container-nav{
+    display: flex
+    ;
+        flex-direction: row;
+        margin-top: 2rem;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: center;
+}
+.container-nav a{margin-left: 20rem;}
+.container-nav a, .container-nav nav{width: 100%;}
+
+.container-nav nav{
+display: flex;
+flex-direction: row;
+padding-right: 5rem;
+
+}
+.container-nav nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+.header h1{
+    font-size: .5rem;
+}
+.header img {
+    width: 24rem;
+}
+.container-subtitulos{
+    position: absolute;
+    bottom: 0;
+    line-height: .5rem  ;
+    left: 20rem;
+}
+.container-subtitulos h1{
+    font-size: 3rem;
+    color: white;
+}
+.container-subtitulos h2{
+    font-size: 3rem;
+    color: rgb(245, 245, 41);
+}
+/* main */
+main{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+main h2:nth-child(1){
+    color: rgb(245, 245, 41);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.card{
+    border: 1px solid;
+    width: 30rem;
+    position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.card img{
+    object-fit: cover;
+}
+.card h3{
+    font-size: 1.5rem;
+    color: rgb(245, 245, 41);
+}
+.card p{
+    font-size: 1.5rem;
+}
+.card a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    bottom: 0;
+    height: 2.5rem;
+    background-color: yellow;
+    width: 6rem;
+    text-decoration: none;
+    border-radius: 0 0 1.5rem 0;
+    margin-bottom: 1rem;
+    color: black;
+}
+/* footer */
+
+.footer{
+    background-color: black;
+    display: flex
+    ;
+        flex-direction: row;
+        height: 50vh;
+        /* align-content: flex-start; */
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 4rem;
+        color: white;
+}
+.footer img{
+    width: 20rem;
+}
+.footer nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
