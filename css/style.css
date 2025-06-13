@@ -123,9 +123,125 @@ align-items: center;
     margin-bottom: 1rem;
     color: black;
 }
+/* seccion nosotros */
+
+.container-sobre-nosotros{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.container-sobre-nosotros h2{
+    color: rgb(245, 245, 41);
+    font-weight: bold;
+    font-size: 4rem !important;
+    margin-bottom: -.5rem;
+}
+.container-sobre-nosotros p{
+    font-size: 1.5rem;
+    width: 70rem;
+    color: white;
+}
+.container-sobre-nosotros a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;  
+    bottom: 0;
+    height: 2.5rem;
+    background-color: yellow;
+    width: 10rem;
+    text-decoration: none;
+    border-radius: 0 0 2.5rem 0;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+}
+/* seccion contacto */
+.container-contacto{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 60vh   ;
+    background-color: rgb(249, 247, 247);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.container-contacto h2{
+    color: rgb(245, 245, 41);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: -.5rem;
+}
+
+.container-contacto form, .container-contacto form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    align-items: flex-start;
+}
+.container-contacto form{
+  
+    width: 90vh;
+}
+.container-contacto h2{
+    color: rgb(245, 245, 41);
+    font-weight: bold;
+    font-size: 4rem !important;
+    margin-bottom: -.5rem;
+}
+input{
+    border: .5px solid rgba(119, 136, 153, 0.684);
+    width: 100%;
+    height: 3.5em;
+    border-radius: 5px;
+}
+label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+textarea{
+    border: .5px solid rgba(119, 136, 153, 0.684);
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+}
+::placeholder {
+    color: #888;
+    font-style: normal;
+    opacity: 1;
+    padding-left: 1rem; 
+    font-size: 1.4rem;
+  }
+.container-contacto form div button{
+    width: 100%;
+    border: none;
+    border-radius: 0 0 2.5rem 0;
+    background-color: rgb(245, 245, 41);
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    height: 3.2rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
 /* footer */
 
 .footer{
+    margin-top: 4rem;
     background-color: black;
     display: flex
     ;
